@@ -1,0 +1,13 @@
+diff --git a/dist/vite/plugin.js b/dist/vite/plugin.js
+index 3f025ab178692932a2c3b6527d5d82a60021f8b6..0ea80a5849ebe91dcacf6ea4a3bc8f9fd9b82568 100644
+--- a/dist/vite/plugin.js
++++ b/dist/vite/plugin.js
+@@ -357,7 +357,7 @@ const remixVitePlugin = (options = {}) => {
+         // disk from the child compiler. This is important in the
+         // production build because the child compiler is a Vite dev
+         // server and will generate incorrect manifests.
+-        .filter(plugin => typeof plugin === "object" && plugin !== null && "name" in plugin && plugin.name !== "remix" && plugin.name !== "remix-hmr-updates"), {
++        .filter(plugin => typeof plugin === "object" && plugin !== null && "name" in plugin && plugin.name !== "vanilla-extract" && plugin.name !== "remix" && plugin.name !== "remix-hmr-updates"), {
+           name: "no-hmr",
+           handleHotUpdate() {
+             // parent vite server is already sending HMR updates

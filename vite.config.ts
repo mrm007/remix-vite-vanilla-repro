@@ -14,4 +14,7 @@ export default defineConfig({
       emitCssInSsr: true, // ! flash of *styled* content without it
     }),
   ],
+  build: {
+    minify: false,
+  }
 });
