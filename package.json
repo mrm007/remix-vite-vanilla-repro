@@ -34,5 +34,10 @@
   },
   "engines": {
     "node": ">=14.0.0"
+  },
+  "pnpm": {
+    "patchedDependencies": {
+      "@remix-run/dev@2.2.0": "patches/@remix-run__dev@2.2.0.patch"
+    }
   }
 }
