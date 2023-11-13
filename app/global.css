@@ -1,0 +1,4 @@
+.global-active {
+  --source: global-css;
+  font-weight: bold;
+}

@@ -1,0 +1,38 @@
+{
+  "name": "remix-vite-vanilla-repro",
+  "private": true,
+  "sideEffects": false,
+  "type": "module",
+  "scripts": {
+    "remix:build": "remix build",
+    "remix:dev": "remix dev",
+    "vite:build": "vite build && vite build --ssr",
+    "vite:dev": "vite dev",
+    "start": "remix-serve ./build/index.js",
+    "typecheck": "tsc"
+  },
+  "dependencies": {
+    "@remix-run/css-bundle": "^2.2.0",
+    "@remix-run/node": "^2.2.0",
+    "@remix-run/react": "^2.2.0",
+    "@remix-run/serve": "^2.2.0",
+    "isbot": "^3.6.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "^2.2.0",
+    "@remix-run/eslint-config": "^2.2.0",
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.8",
+    "@vanilla-extract/css": "^1.14.0",
+    "@vanilla-extract/vite-plugin": "^3.9.0",
+    "eslint": "^8.27.0",
+    "serve": "^14.2.1",
+    "typescript": "^5.2.2",
+    "vite": "^4.5.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
