@@ -1,0 +1,10 @@
+{
+  "version": "v1",
+  "packages": {
+    "@remix-run/dev": {
+      "signature": "c31910ff0b9aae17d41c85b4583330ad",
+      "file": true,
+      "replaced": "^2.2.0"
+    }
+  }
+}
